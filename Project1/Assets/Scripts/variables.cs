@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
-public class variables : MonoBehaviour
+public class Variables : MonoBehaviour
 {
 	public float floatValue = 5f;
 	public int intValue;
@@ -19,17 +16,5 @@ public class variables : MonoBehaviour
 			print("GAME OVER");
 			Destroy(this.gameObject);
 		}
-	}
-}
-
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
