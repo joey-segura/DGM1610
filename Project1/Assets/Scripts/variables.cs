@@ -20,6 +20,7 @@ public class variables : MonoBehaviour
 			Destroy(this.gameObject);
 		}
 	}
+}
 
 	// Use this for initialization
 	void Start ()
