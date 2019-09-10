@@ -122,8 +122,8 @@ GameObject:
   m_Component:
   - component: {fileID: 121166864}
   - component: {fileID: 121166863}
-  - component: {fileID: 121166860}
   - component: {fileID: 121166866}
+  - component: {fileID: 121166860}
   - component: {fileID: 121166862}
   - component: {fileID: 121166859}
   - component: {fileID: 121166865}
@@ -160,18 +160,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 121166858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7755885f243df3c4abf07db0935f53d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 5545602c78b5a6946b9b2ae35e1b56b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  floatValue: 5
-  intValue: 0
-  stringValue: Pixeltic
-  firePower: 0
-  Event:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  speed: 10
 --- !u!65 &121166861
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -262,10 +254,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 121166858}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5545602c78b5a6946b9b2ae35e1b56b9, type: 3}
+  m_Script: {fileID: 11500000, guid: 7755885f243df3c4abf07db0935f53d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  floatValue: 5
+  intValue: 0
+  stringValue: Pixeltic
+  firePower: 0
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &572583355
 GameObject:
   m_ObjectHideFlags: 0
