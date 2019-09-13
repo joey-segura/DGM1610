@@ -7,6 +7,6 @@ public class particleControl : MonoBehaviour
     public ParticleSystem particles;
     void Start()
     {
-        particles.Emit(count: 100);
+        particles.Emit(count: 50);
     }
 }
