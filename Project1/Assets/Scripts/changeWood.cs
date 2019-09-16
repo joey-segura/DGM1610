@@ -15,9 +15,9 @@ public class changeWood: MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "burntWood")
+        if(other.gameObject.tag == "burntWood")
         {
-            rend.sharedMaterial = material[1];
+            rend.sharedMaterial = material[2];
         }
     }
 }
