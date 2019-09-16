@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\changeWood.cs" />
     <Compile Include="Assets\Scripts\extinguish.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\killObject.cs" />
