@@ -17,7 +17,7 @@ public class changeWood: MonoBehaviour
     {
         if(other.gameObject.CompareTag("burntWood"))
         {
-            rend.sharedMaterial = material[1];
+            rend.sharedMaterial = material[2];
         }
     }
 }
