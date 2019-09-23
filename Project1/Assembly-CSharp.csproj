@@ -59,7 +59,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\gameScripts\movement2.cs" />
     <Compile Include="Assets\Scripts\gameScripts\movement3.cs" />
-    <Compile Include="Assets\Scripts\gameScripts\respawn.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\playerCheck.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\spikeDeath.cs" />
     <Compile Include="Assets\Scripts\testScripts\changeWood.cs" />
     <Compile Include="Assets\Scripts\testScripts\extinguish.cs" />
     <Compile Include="Assets\Scripts\testScripts\FloatData.cs" />
