@@ -17,7 +17,6 @@ public class movement2 : MonoBehaviour
         {
             position.y -= gravity;
         }
-
         if (Input.GetKeyDown("up"));
         {
             position.y = jumpSpeed;
