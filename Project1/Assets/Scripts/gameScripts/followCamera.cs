@@ -1,5 +1,9 @@
 ﻿//https://www.youtube.com/watch?v=MFQhpwc6cKE
+
+using System;
+using System.Numerics;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
 
 public class followCamera : MonoBehaviour
 {
@@ -9,8 +13,8 @@ public class followCamera : MonoBehaviour
 
     private void LateUpdate()
     {
-        Vector3 desiredPosition = focus.position + distance;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, followSpeed*Time.deltaTime);
+        Vector3 desiredPosition = focus.position + distance; 
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, followSpeed*Time.deltaTime); 
         transform.position = smoothedPosition;
     }
 }
