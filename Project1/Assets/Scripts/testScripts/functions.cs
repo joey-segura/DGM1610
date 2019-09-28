@@ -9,6 +9,7 @@ public class functions : MonoBehaviour
     public float speed = 5f;
     public GameObject player;
     
+
     void Start()
     {
         Instantiate(ConfigGameObject());
@@ -22,11 +23,10 @@ public class functions : MonoBehaviour
         player.tag = "Player";
         player.transform.position = Vector3.zero;
         player.name = playerName;
-        
+
         return player;
     }
-    
-    
+
     private void OnTriggerEnter(Collider other)
     {
         speed = IncreaseSpeed(2f);
