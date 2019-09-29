@@ -57,8 +57,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\gameScripts\collide.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\gameScripts\followCamera.cs" />
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\lead.cs" />
     <Compile Include="Assets\Scripts\gameScripts\movement2.cs" />
     <Compile Include="Assets\Scripts\gameScripts\movement3.cs" />
     <Compile Include="Assets\Scripts\gameScripts\playerCheck.cs" />

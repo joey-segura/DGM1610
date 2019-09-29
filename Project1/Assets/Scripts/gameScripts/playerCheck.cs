@@ -9,7 +9,7 @@ public class playerCheck : MonoBehaviour
     {
         if (GameObject.Find("player") != null)
         {
-            Debug.Log("I am here.");
+           Debug.Log("I am here.");
         }
         else
         {
