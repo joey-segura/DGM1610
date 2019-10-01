@@ -16,7 +16,6 @@ public class enemyData : MonoBehaviour
     private GameObject ConfigGameObject()
     {
         enemy.layer = 0;
-        enemy.active = true;
         enemy.tag = "Player";
         enemy.transform.position = Vector3.zero;
         enemy.name = enemyName;
