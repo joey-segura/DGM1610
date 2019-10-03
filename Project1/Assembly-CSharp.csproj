@@ -69,10 +69,12 @@
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
     <Compile Include="Assets\Scripts\gameScripts\intData.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lead.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\monoEvents.cs" />
     <Compile Include="Assets\Scripts\gameScripts\movement2.cs" />
     <Compile Include="Assets\Scripts\gameScripts\movement3.cs" />
     <Compile Include="Assets\Scripts\gameScripts\playerCheck.cs" />
     <Compile Include="Assets\Scripts\gameScripts\spikeDeath.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\uIimageController.cs" />
     <Compile Include="Assets\Scripts\gameScripts\UItextController.cs" />
     <Compile Include="Assets\Scripts\testScripts\applyForce.cs" />
     <Compile Include="Assets\Scripts\testScripts\changeWood.cs" />

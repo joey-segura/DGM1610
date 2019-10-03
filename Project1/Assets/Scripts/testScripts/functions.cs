@@ -19,7 +19,6 @@ public class functions : MonoBehaviour
     private GameObject ConfigGameObject()
     {
         player.layer = 0;
-        player.active = true;
         player.tag = "Player";
         player.transform.position = Vector3.zero;
         player.name = playerName;

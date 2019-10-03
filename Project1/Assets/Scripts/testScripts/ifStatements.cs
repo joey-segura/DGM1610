@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using UnityEditor.Experimental.UIElements.GraphView;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ifStatements : MonoBehaviour
 {
@@ -24,11 +19,5 @@ public class ifStatements : MonoBehaviour
         {
             print("True");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
