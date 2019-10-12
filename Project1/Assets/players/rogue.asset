@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 26bb8af7a10d65d419d1041abd5de0e6, type: 3}
-  m_Name: greenFill
+  m_Name: rogue
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: adab81fa922479f48a06b47bfb7cb8df, type: 3}
-  color: {r: 0.57208997, g: 0.7735849, b: 0.25178, a: 1}
-  prefab: {fileID: 8243001702848912333, guid: ced8d2f816b46ff48bd87ee70a30e972, type: 3}
+  sprite: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  prefab: {fileID: 0}
   weapon: {fileID: 0}
