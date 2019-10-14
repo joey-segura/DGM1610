@@ -7,19 +7,17 @@ public class movement3 : MonoBehaviour
     public float moveSpeed = 10f, gravity = 1f, jumpSpeed = 15f;
     public int jumpCount;
     public int jumpCountMax = 2;
-    
-    // Start is called before the first frame update
+    public Animator rogueController;
     void Start()
     {
         controller = GetComponent<CharacterController>();
     }
-
-    // Update is called once per frame
     void Update()
     {
         controller.Move(position*Time.deltaTime);
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.y -= gravity;
+        rogueController.SetFloat("Speed", Mathf.Abs(position.x));
         
         if (controller.isGrounded)
         {

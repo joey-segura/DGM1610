@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2418916085542014644}
   - component: {fileID: 8557340615239426718}
+  - component: {fileID: 8853823494594344507}
+  - component: {fileID: 7323653211649383504}
+  - component: {fileID: 4587441535192309841}
   m_Layer: 0
   m_Name: sprite
   m_TagString: Untagged
@@ -79,6 +82,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8853823494594344507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430974045271153566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a36ad66986f3144985da538c51e494, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  gravity: 1
+  jumpSpeed: 15
+  jumpCount: 0
+  jumpCountMax: 2
+  rogueController: {fileID: 7323653211649383504}
+--- !u!95 &7323653211649383504
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430974045271153566}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5d9089cec7ce6824cb4ffab6651deac2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!143 &4587441535192309841
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4430974045271153566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8243001702848912333
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +150,7 @@ GameObject:
   - component: {fileID: 8243001702848912334}
   - component: {fileID: 8243001702848912335}
   - component: {fileID: 8243001702848912332}
+  - component: {fileID: 2090439061049686343}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -143,6 +202,7 @@ MonoBehaviour:
   jumpSpeed: 15
   jumpCount: 0
   jumpCountMax: 2
+  rogueController: {fileID: 2090439061049686343}
 --- !u!136 &8243001702848912335
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -175,3 +235,22 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &2090439061049686343
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8243001702848912333}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5d9089cec7ce6824cb4ffab6651deac2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
