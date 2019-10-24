@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: collection
   m_EditorClassIdentifier: 
   collectionList:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8243001702848912333, guid: 46612c9c1ae160643b57bf67263e2954, type: 3}
+  - {fileID: 8243001702848912333, guid: 46612c9c1ae160643b57bf67263e2954, type: 3}

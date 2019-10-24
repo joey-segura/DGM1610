@@ -4,4 +4,9 @@ using UnityEngine;
 public class collectionsData : ScriptableObject
 {
     public List<GameObject> collectionList;
+    
+    public  void AddData(gameArtData obj)
+    {
+        
+    }
 }
