@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class moveTowards : MonoBehaviour
 {
+    private Vector2 position;
     private GameObject target;
     public Transform enemy;
     void Start()
@@ -16,7 +17,7 @@ public class moveTowards : MonoBehaviour
     {
         if (enemy.position.y >= -1)
         {
-             
+            position.y = 0;
         }
         else
         {
