@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\gameScripts\followUpdate.cs" />
     <Compile Include="Assets\Scripts\gameScripts\gameArtCollection.cs" />
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\killRespawn.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lead.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lists.cs" />
     <Compile Include="Assets\Scripts\gameScripts\monoEvents.cs" />
