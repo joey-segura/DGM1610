@@ -70,7 +70,6 @@
     <Compile Include="Assets\Scripts\gameScripts\followUpdate.cs" />
     <Compile Include="Assets\Scripts\gameScripts\gameArtCollection.cs" />
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
-    <Compile Include="Assets\Scripts\gameScripts\killRespawn.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lead.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lists.cs" />
     <Compile Include="Assets\Scripts\gameScripts\monoEvents.cs" />
@@ -78,6 +77,7 @@
     <Compile Include="Assets\Scripts\gameScripts\movement3.cs" />
     <Compile Include="Assets\Scripts\gameScripts\moveTowards.cs" />
     <Compile Include="Assets\Scripts\gameScripts\playerCheck.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\respawnController.cs" />
     <Compile Include="Assets\Scripts\gameScripts\spikeDeath.cs" />
     <Compile Include="Assets\Scripts\gameScripts\uIimageController.cs" />
     <Compile Include="Assets\Scripts\gameScripts\UItextController.cs" />

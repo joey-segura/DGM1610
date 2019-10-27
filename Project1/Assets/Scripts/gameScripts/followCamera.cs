@@ -10,7 +10,10 @@ public class followCamera : MonoBehaviour
     public Transform focus;
     public float followSpeed = 10f;
     public Vector3 distance;
-
+    private void Start()
+    {
+        focus = GameObject.Find("player(Clone)").transform;
+    }
     private void LateUpdate()
     {
         Vector3 desiredPosition = focus.position + distance; 

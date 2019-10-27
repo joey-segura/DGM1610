@@ -11,7 +11,7 @@ public class moveTowards : MonoBehaviour
     public Transform enemy;
     void Start()
     {
-        target = GameObject.Find("player");
+        target = GameObject.Find("player(Clone)");
     }
     void Update()
     {
