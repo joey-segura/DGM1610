@@ -7,10 +7,14 @@ public class killRespawn : MonoBehaviour
 {
     [SerializeField] private Transform respawnPoint;
 
+    private void Start()
+    {
+        respawnPoint = GameObject.Find("respawnPoint").transform;
+    }
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name);
-        if (other.gameObject.name == "respawnPoint")
+       
+        if (other.gameObject.name == "net")
         {
             this.gameObject.transform.position = respawnPoint.position;
         }
