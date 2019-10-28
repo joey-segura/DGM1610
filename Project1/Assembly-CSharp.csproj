@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\itemCollect.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collectionsData.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collide.cs" />
     <Compile Include="Assets\Scripts\gameScripts\dataScripts\clothesData.cs" />
