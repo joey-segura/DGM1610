@@ -7,6 +7,6 @@ public class debugger : ScriptableObject
 {
     public void onDebug(string words)
     {
-        Debug.Log(words);
+        
     }
 }

@@ -33,4 +33,4 @@ public class enumSwitch : MonoBehaviour
                 throw new ArgumentOutOfRangeException();
         }
     }
-}
+} 

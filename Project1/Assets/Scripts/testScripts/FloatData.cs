@@ -10,7 +10,6 @@ public class FloatData : ScriptableObject
     {
         value += amount;
     }
-//check phone picture.
     public void UpdateValueRange(float amount)
     {
         if (value <= maxValue)
@@ -21,7 +20,7 @@ public class FloatData : ScriptableObject
         {
             value = maxValue;
         }
-        
+
         if (value >= minValue)
         {
             UpdateValue(amount);
