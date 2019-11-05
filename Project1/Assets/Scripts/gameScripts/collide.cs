@@ -3,7 +3,7 @@ public class collide : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "enemy")
+        if (other.gameObject.name == "enemyMelee")
         {
             this.gameObject.SetActive(false);
         }

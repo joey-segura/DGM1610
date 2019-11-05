@@ -10,7 +10,10 @@ public class respawnController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.transform.position);
         player.transform.position = respawn.transform.position;
+    }
+    private void Update()
+    {
+        player = GameObject.Find("player(Clone)").transform;
     }
 }
