@@ -12,5 +12,9 @@ public class uIimageController : MonoBehaviour
     public void UpdateImage(FloatData data)
     {
         img.fillAmount = data.value;
+        if (data.value <= 0)
+        {
+            GameObject.Find("player(Clone)").SetActive(false);
+        }
     }
 }
