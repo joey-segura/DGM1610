@@ -62,6 +62,7 @@
     <Compile Include="Assets\enemyFlying.cs" />
     <Compile Include="Assets\forceEffect.cs" />
     <Compile Include="Assets\itemCollect.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\batteryPush.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collectionsData.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collide.cs" />
     <Compile Include="Assets\Scripts\gameScripts\dataScripts\clothesData.cs" />
