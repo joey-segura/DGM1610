@@ -59,6 +59,8 @@
   <ItemGroup>
     <Compile Include="Assets\agentHandler.cs" />
     <Compile Include="Assets\agentHandlerTest.cs" />
+    <Compile Include="Assets\enemyFlying.cs" />
+    <Compile Include="Assets\forceEffect.cs" />
     <Compile Include="Assets\itemCollect.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collectionsData.cs" />
     <Compile Include="Assets\Scripts\gameScripts\collide.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\Scripts\gameScripts\followCamera.cs" />
     <Compile Include="Assets\Scripts\gameScripts\followUpdate.cs" />
     <Compile Include="Assets\Scripts\gameScripts\gameArtCollection.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\gcCollide.cs" />
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
     <Compile Include="Assets\Scripts\gameScripts\interact.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lead.cs" />

@@ -183,10 +183,10 @@ GameObject:
   - component: {fileID: 8243001702848912330}
   - component: {fileID: 3343455772760301135}
   - component: {fileID: 8243001702848912334}
-  - component: {fileID: 8243001702848912335}
   - component: {fileID: 8243001702848912332}
   - component: {fileID: 1611519060038054216}
   - component: {fileID: 8618048388825516584}
+  - component: {fileID: 8979271216165860755}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -288,20 +288,6 @@ MonoBehaviour:
   jumpCount: 0
   jumpCountMax: 2
   rogueController: {fileID: 1611519060038054216}
---- !u!136 &8243001702848912335
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8243001702848912333}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.4
-  m_Height: 1.8
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!143 &8243001702848912332
 CharacterController:
   m_ObjectHideFlags: 0
@@ -355,3 +341,16 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &8979271216165860755
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8243001702848912333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.5693922, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
