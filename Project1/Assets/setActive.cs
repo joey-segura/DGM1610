@@ -15,7 +15,7 @@ public class setActive : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            rendr.enabled = !rendr.enabled;
+                rendr.enabled = !rendr.enabled;
         }
     }
 }
