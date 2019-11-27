@@ -9,10 +9,8 @@ public class followUpdate : MonoBehaviour
     public Transform followPoint;
     public int triggerRange;
     public bool chasing = false;
-    public Animator animator;
     private void Start()
     {
-        animator = GetComponent<Animator>();
         StartCoroutine(GetPlayer());
     }
     public IEnumerator GetPlayer()
@@ -24,10 +22,6 @@ public class followUpdate : MonoBehaviour
     }
     void Update()
     {
-        if (chasing)
-        {
-            animator.SetBool("Chasing", true);
-        }
         transform.LookAt(followPoint);
         if (target != null)
         {

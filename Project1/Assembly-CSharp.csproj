@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\agentHandler.cs" />
     <Compile Include="Assets\agentHandlerTest.cs" />
+    <Compile Include="Assets\animateBat.cs" />
     <Compile Include="Assets\enemyFlying.cs" />
     <Compile Include="Assets\forceEffect.cs" />
     <Compile Include="Assets\itemCollect.cs" />
