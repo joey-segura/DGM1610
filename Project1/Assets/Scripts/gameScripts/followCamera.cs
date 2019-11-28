@@ -1,10 +1,8 @@
 ﻿//https://www.youtube.com/watch?v=MFQhpwc6cKE
-
 using System;
 using System.Numerics;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
-
 public class followCamera : MonoBehaviour
 {
     public Transform focus;

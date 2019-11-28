@@ -18,7 +18,7 @@ public class followUpdate : MonoBehaviour
         yield return null;
         target = GameObject.Find("player(Clone)");
         followPoint = target.transform;
-        triggerRange = 5;
+        triggerRange = 4;
     }
     void Update()
     {
