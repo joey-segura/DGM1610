@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+//INSTANTIATES PLAYER PREFAB AS "player(clone)"
 [CreateAssetMenu]
 public class playerData : gameArtData
 {
