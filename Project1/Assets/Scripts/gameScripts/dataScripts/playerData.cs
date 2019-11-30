@@ -12,7 +12,7 @@ public class playerData : gameArtData
 
     public void instancePlayer()
     {
-        var newPlayer = Instantiate(prefab, new Vector3(-20,-1,0), Quaternion.identity);
+        var newPlayer = Instantiate(prefab, new Vector3(-140,-1,0), Quaternion.identity);
         var newSprite = newPlayer.GetComponentInChildren<SpriteRenderer>();
         newSprite.sprite = sprite;
         newSprite.color = color;
