@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\gameScripts\gameArtCollection.cs" />
     <Compile Include="Assets\Scripts\gameScripts\gcCollide.cs" />
     <Compile Include="Assets\Scripts\gameScripts\getFruit.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\hideBag.cs" />
     <Compile Include="Assets\Scripts\gameScripts\interact.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lead.cs" />
     <Compile Include="Assets\Scripts\gameScripts\lists.cs" />

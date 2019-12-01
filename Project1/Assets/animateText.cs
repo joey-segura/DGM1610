@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class animateText : MonoBehaviour
 {
-    public float DestroyText = 1f;
-    public Vector3 Offset = new Vector3(0, 0, 0);
+    public float DestroyText = 3f;
+    public Vector3 offset = new Vector3(0,2,0);
     void Start()
     {
         Destroy(gameObject, DestroyText);
-        transform.localPosition += Offset;
-    }
 
+        this.transform.position += offset;
+    }
 }
