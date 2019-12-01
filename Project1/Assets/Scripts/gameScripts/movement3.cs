@@ -12,6 +12,14 @@ public class movement3 : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
     }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "jumpUP")
+        {
+            jumpCountMax = 3;
+        }
+    }
     void Update()
     {
         Vector3 newScale = transform.localScale;
@@ -19,7 +27,6 @@ public class movement3 : MonoBehaviour
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.y -= gravity;
         rogueController.SetFloat("Speed", Mathf.Abs(position.x));
-
         if (controller.isGrounded)
         {
             position.y = 0;

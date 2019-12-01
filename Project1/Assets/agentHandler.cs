@@ -20,6 +20,7 @@ public class agentHandler : MonoBehaviour
     }
     void Update()
     {
+        
         agent.destination = destinationobj.position;
     }
 }

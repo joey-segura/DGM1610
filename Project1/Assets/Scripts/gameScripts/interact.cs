@@ -5,8 +5,16 @@ using UnityEngine;
 
 public class interact : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public GameObject popUpTextPrefab;
+    public void OnTriggerEnter(Collider other)
     {
-        this.gameObject.SetActive(false);
+        if (popUpTextPrefab)
+        {
+            ShowpopUpText();
+        }
+    }
+    private void ShowpopUpText()
+    {
+        Instantiate(popUpTextPrefab, transform.position, Quaternion.identity, transform);
     }
 }
