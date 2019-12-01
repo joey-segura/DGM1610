@@ -14,11 +14,12 @@ public class movement3 : MonoBehaviour
     }
     void Update()
     {
+        Vector3 newScale = transform.localScale;
         controller.Move(position*Time.deltaTime);
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.y -= gravity;
         rogueController.SetFloat("Speed", Mathf.Abs(position.x));
-        
+
         if (controller.isGrounded)
         {
             position.y = 0;
@@ -29,5 +30,14 @@ public class movement3 : MonoBehaviour
             position.y = jumpSpeed;
             jumpCount++;
         }
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            newScale.x = -1;
+        }
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            newScale.x = 1;
+        }
+        transform.localScale = newScale;
     }
 }
