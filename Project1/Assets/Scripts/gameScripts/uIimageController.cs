@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class uIimageController : MonoBehaviour
@@ -14,7 +15,7 @@ public class uIimageController : MonoBehaviour
         img.fillAmount = data.value;
         if (data.value <= 0)
         {
-            GameObject.Find("player(Clone)").SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

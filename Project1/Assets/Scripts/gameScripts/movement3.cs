@@ -22,7 +22,6 @@ public class movement3 : MonoBehaviour
     }
     void Update()
     {
-        Vector3 newScale = transform.localScale;
         controller.Move(position*Time.deltaTime);
         position.x = moveSpeed*Input.GetAxis("Horizontal");
         position.y -= gravity;
@@ -37,14 +36,13 @@ public class movement3 : MonoBehaviour
             position.y = jumpSpeed;
             jumpCount++;
         }
-        if (Input.GetAxis("Horizontal") < 0)
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            newScale.x = -1;
+            transform.rotation = Quaternion.Euler(0,180,0);
         }
-        if (Input.GetAxis("Horizontal") > 0)
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            newScale.x = 1;
+            transform.rotation = Quaternion.Euler(0,0,0);
         }
-        transform.localScale = newScale;
     }
 }

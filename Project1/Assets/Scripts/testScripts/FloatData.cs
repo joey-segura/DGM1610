@@ -9,23 +9,11 @@ public class FloatData : ScriptableObject
     public void UpdateValue(float amount)
     {
         value += amount;
-    }
-    public void UpdateValueRange(float amount)
-    {
-        if (value <= maxValue)
-        {
-            UpdateValue(amount);
-        }
-        else
+        if (value > maxValue)
         {
             value = maxValue;
         }
-
-        if (value >= minValue)
-        {
-            UpdateValue(amount);
-        }
-        else
+        if (value < minValue)
         {
             value = minValue;
         }
