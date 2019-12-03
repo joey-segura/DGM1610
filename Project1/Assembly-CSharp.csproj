@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\gameScripts\enemyFollow.cs" />
     <Compile Include="Assets\Scripts\gameScripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\gameScripts\enumSwitch.cs" />
+    <Compile Include="Assets\Scripts\gameScripts\fallFloor.cs" />
     <Compile Include="Assets\Scripts\gameScripts\followCamera.cs" />
     <Compile Include="Assets\Scripts\gameScripts\followUpdate.cs" />
     <Compile Include="Assets\Scripts\gameScripts\gameArtCollection.cs" />
