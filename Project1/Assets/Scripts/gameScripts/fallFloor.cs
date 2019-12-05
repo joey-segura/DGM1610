@@ -17,7 +17,6 @@ public class fallFloor : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("hit");
             GetComponentInParent<Rigidbody>().useGravity = true;
             GetComponentInParent<Rigidbody>().isKinematic = false;
         }
