@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class collide : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class collide : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            this.gameObject.SetActive(false);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
