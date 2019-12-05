@@ -7,14 +7,20 @@ public class interact : MonoBehaviour
 {
     public GameObject popUpTextPrefab;
 
-    public void OnTriggerEnter(Collider other)
+    IEnumerator OnTriggerEnter(Collider other)
     {
         if (popUpTextPrefab && other.gameObject.name == "jumpUP")
         {
+            movement3 movement3 = GetComponent<movement3>();
+            movement3.canMove = false;
+            
             ShowpopUpText();
+            
+            yield return new WaitForSeconds (3);
+
+            movement3.canMove = true;
         }
     }
-
     private void ShowpopUpText()
     {
         {

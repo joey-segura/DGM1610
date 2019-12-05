@@ -91,8 +91,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.9515915, y: 0.93482506, z: 1}
-  m_Center: {x: 0.0034599304, y: 0.0019916892, z: 0}
+  m_Size: {x: 0.9759445, y: 1.0019196, z: 1}
+  m_Center: {x: -0.0017585754, y: -0.00024348497, z: 0}
 --- !u!54 &8082789667053551125
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -107,7 +107,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 90
+  m_Constraints: 122
   m_CollisionDetection: 3
 --- !u!1 &8082789668104490397
 GameObject:
@@ -152,8 +152,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.1019466, y: 1, z: 1}
+  m_Center: {x: 0.00000022138869, y: 0, z: 0}
 --- !u!114 &8082789668104490394
 MonoBehaviour:
   m_ObjectHideFlags: 0

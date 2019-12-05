@@ -130,6 +130,7 @@ MonoBehaviour:
   jumpCount: 0
   jumpCountMax: 2
   rogueController: {fileID: 1611519060038054216}
+  canMove: 1
 --- !u!143 &8243001702848912332
 CharacterController:
   m_ObjectHideFlags: 0
