@@ -10,8 +10,8 @@ public class agentHandler : MonoBehaviour
     public Transform destinationobj;
     void Awake()
     {
-        agent = GetComponent<NavMeshAgent>();
         StartCoroutine(targetPlayer());
+        agent = GetComponent<NavMeshAgent>();
     }
 
     public IEnumerator targetPlayer()

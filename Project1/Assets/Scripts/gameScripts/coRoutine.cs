@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Events;
 
-public abstract class coRoutine : MonoBehaviour
+public class coRoutine : MonoBehaviour
 {
     public UnityEvent startEvent, repeatEvent, endEvent;
     public float seconds = 10f;

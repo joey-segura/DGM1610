@@ -5,8 +5,16 @@ using UnityEngine;
 
 public class displayText : MonoBehaviour
 {
-    private void Update()
+    public GameObject welcomeNote;
+    private void Start()
     {
-        throw new NotImplementedException();
+        welcomeNote.SetActive(true);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        //if (gameObject.CompareTag("Player"))
+        {
+            welcomeNote.SetActive(false);
+        }
     }
 }

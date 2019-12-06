@@ -6,7 +6,6 @@ using UnityEngine;
 public class interact : MonoBehaviour
 {
     public GameObject popUpTextPrefab;
-
     IEnumerator OnTriggerEnter(Collider other)
     {
         if (popUpTextPrefab && other.gameObject.name == "jumpUP")
