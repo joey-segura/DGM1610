@@ -12,7 +12,6 @@ public class displayText : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        //if (gameObject.CompareTag("Player"))
         {
             welcomeNote.SetActive(false);
         }
